@@ -1,0 +1,21 @@
+import math
+
+def runInput(filename : str):
+    
+    with open(filename, "r") as file:
+        lines = file.readlines()
+    
+	result1 = 0
+	result2 = 0
+    print(f'Part1: {}')
+    print(f'Part2: {}')
+
+
+def main():
+    print("=========Test==========")
+    runInput("inputs/##PROBLEMNAME##test.txt")
+    print("=========Final==========")
+    runInput("inputs/##PROBLEMNAME##input.txt")
+
+if __name__ == '__main__':
+    main()
